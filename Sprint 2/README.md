@@ -28,11 +28,11 @@ make
 ```
 To execute the project you need to run
 ```
-./beergame
+./src/beergame
 ```
 to execute the testing
 ```
-./beergame-tests
+./test/beergame-tests
 ```
 and to make docs run
 ```
