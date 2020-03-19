@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['game',['Game',['../class_game.html#ad59df6562a58a614fda24622d3715b65',1,'Game']]],
+  ['game',['Game',['../class_game.html#a3b4c8aab575024b6f3e2d648c6e17418',1,'Game']]],
+  ['game_5fui',['Game_ui',['../class_game__ui.html#abad4919c9b6622e654abfe39d8a616fa',1,'Game_ui']]],
   ['generatepasswords',['generatePasswords',['../class_game.html#aa083541e01feec6694497e8c6eb5ffe8',1,'Game']]],
   ['getbackorder',['getBackorder',['../class_player.html#a8080e44c26141d956babb824d2a7ae7c',1,'Player']]],
   ['getbackordercost',['getBackorderCost',['../class_game.html#ab29ec1e3f5dd71e0f67b3bda884ff166',1,'Game']]],

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['se_2d02_2dteam_2d24',['se-02-team-24',['../md__home_kinky_tail_se-02-team-24__r_e_a_d_m_e.html',1,'']]],
+  ['se_2d02_2dteam_2d24',['se-02-team-24',['../md__home_kinky_tail__c_s__s_e__beer-_game__sprint_2__r_e_a_d_m_e.html',1,'']]],
+  ['sample',['sample',['../classsample.html',1,'sample'],['../classsample.html#a832605958c476ac8e2cee914201ce172',1,'sample::sample()']]],
+  ['sample_2ecpp',['sample.cpp',['../sample_8cpp.html',1,'']]],
+  ['sample_2eh',['sample.h',['../sample_8h.html',1,'']]],
   ['setbackorder',['setBackorder',['../class_player.html#a55cf59cc96744fee031167b7736e5d35',1,'Player']]],
   ['setbackordercost',['setBackorderCost',['../class_game.html#a6526b895b01b619358918e5276314f43',1,'Game']]],
   ['setcost',['setCost',['../class_player.html#adae26798d67d12ad53bd3d9ba2e8b0fc',1,'Player']]],

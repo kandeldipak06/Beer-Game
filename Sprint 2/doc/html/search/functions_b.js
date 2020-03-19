@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sample',['sample',['../classsample.html#a832605958c476ac8e2cee914201ce172',1,'sample']]],
   ['setbackorder',['setBackorder',['../class_player.html#a55cf59cc96744fee031167b7736e5d35',1,'Player']]],
   ['setbackordercost',['setBackorderCost',['../class_game.html#a6526b895b01b619358918e5276314f43',1,'Game']]],
   ['setcost',['setCost',['../class_player.html#adae26798d67d12ad53bd3d9ba2e8b0fc',1,'Player']]],
