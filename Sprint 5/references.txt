@@ -1,0 +1,50 @@
+{
+	"online-references": [{
+			"url": "https://doc.qt.io/qt-5/qtdesigner-manual.html",
+			"contribution": "guide to making a GUI with qt5",
+			"files": "front-end files "
+		},
+		{
+			"url": "https://forum.qt.io/",
+			"contribution": "help with user experience in qt",
+			"files": "front-end files "
+		},
+		{
+            "url": "https://wiki.qt.io/WIP-How_to_create_a_simple_chat_application#The_Single_Thread_Server",
+            "contribution": "Code for server and client",
+            "file": "src/server/ code"
+        },
+			"url": "https://doc.qt.io/qt-5/qtcpsocket.html",
+			"contribution": "sockets in Qt",
+			"file": "src/server/ code"
+		}, 
+		{
+			"url": "https://obsproject.com/forum/threads/qnetwork-and-cmake.70243/",
+			"contribution": "sockets in Qt",
+			"file": "src/server/ code"
+		}, 
+		{
+			"url": "https://retifrav.github.io/blog/2018/03/08/qt-client-server-qml/",
+			"contribution": "sockets in Qt",
+			"file": "src/server/ code"
+		}
+	],
+	"colleague": [{
+			"jacobs-id": "ewunpyae",
+			"sprint": "5",
+			"team": "29",
+			"contribution": "front-end enhancements, testcases, documentation",
+			"files": ["instrwindow.cpp, instrwindow.h, instrwindow.ui, ",
+						"playerwindow.cpp, playerwindow.h playerwindow.ui, welcome.cpp, welcome.h, welcome.ui,",
+						"Game.cpp, Game.h, Instructor.h, Instructor.cpp, Player.h, Player.cpp, test.cpp"]
+			"in tests dir": "CMakeLists.txt",
+		},
+		{
+			"jacobs-id": "dkandel",
+			"sprint": "5",
+			"team": "29",
+			"contribution": "front-end enhancements, sockets in server-client connections",
+			"files": " "
+		}
+	]
+}

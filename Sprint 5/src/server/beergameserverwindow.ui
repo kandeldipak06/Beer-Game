@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BeerGameServerWindow</class>
+ <widget class="QMainWindow" name="BeerGameServerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#BeerGameServerWindow {
+	/*background-image: url(:/images/beer_server.jpg);*/
+	
+	background-color: rgb(158, 232, 237);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="settingsGroup">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>550</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#settingsGroup{
+	background-color: rgb(158, 232, 237);
+	border-radius: 4px;
+}
+
+#settingsGroup:disabled{
+	background-color: rgb(158, 232, 237);
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>120</y>
+       <width>401</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame{
+   border: 0px solid #f5f5f5;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="ip_input">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>30</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#lineEdit{
+    border: 1px solid #f5f5f5;
+}</string>
+      </property>
+      <property name="text">
+       <string>127.0.0.1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="ip_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>League Spartan Bold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#ip_label { 
+	color: #111;
+	font-family: 'League Spartan Bold', arial;
+}
+
+#ip_label:disabled {
+	color: #c0c0c0;
+}</string>
+      </property>
+      <property name="text">
+       <string>IP Address</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="port_input">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>80</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#lineEdit_3{
+    border: 1px solid #f5f5f5;
+}</string>
+      </property>
+      <property name="text">
+       <string>8880</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="port_label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>League Spartan Bold</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#port_label{ 
+	color: #111;
+	font-family: 'League Spartan Bold', arial;
+}
+
+#port_label:disabled {
+	color: #c0c0c0;
+}</string>
+      </property>
+      <property name="text">
+       <string>Port Number</string>
+      </property>
+     </widget>
+     <zorder>port_input</zorder>
+     <zorder>ip_label</zorder>
+     <zorder>port_label</zorder>
+     <zorder>ip_input</zorder>
+    </widget>
+    <widget class="QLabel" name="win_heading">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>391</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>League Spartan Bold</family>
+       <pointsize>25</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#win_heading{ 
+	color: #111;
+	font-family: 'League Spartan Bold', arial;
+	color: #111;
+}
+
+#win_heading:disabled {
+	color: #c0c0c0;
+}</string>
+     </property>
+     <property name="text">
+      <string>Beer Game Server</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="start_server_btn">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>280</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>League Spartan Bold</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+#start_server_btn {
+	color: rgb(0, 0, 0);
+   background-color: #66c011;
+    border-color:#007bff;
+    font-family: 'League Spartan Bold', arial;
+    font-weight: bold;
+    border: 1px solid #f5f5f5; 
+}
+
+#start_server_btn:hover { background-color: #66c011; color: white; border: 1px solid black;}
+
+#start_server_btn:disabled {
+	background-color: #add8e6;
+	color: black;
+}</string>
+     </property>
+     <property name="text">
+      <string>Start Server</string>
+     </property>
+    </widget>
+    <zorder>frame</zorder>
+    <zorder>start_server_btn</zorder>
+    <zorder>win_heading</zorder>
+   </widget>
+   <widget class="QPushButton" name="stopServerBtn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>400</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>League Spartan Bold</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+#stopServer Btn{
+	background-color: rgb(220, 76, 76);
+    border-color:#007bff;
+    font-family: 'League Spartan Bold', arial;
+    font-weight: bold;
+    border: 1px solid #f5f5f5; 
+}
+
+#stopServerBtn:hover { background-color: rgb(220, 76, 76); color: white; border: 1px solid black;}
+
+#stopServerBtn:disabled {
+	background-color: rgb(220, 76, 76);
+	color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stop Server</string>
+    </property>
+   </widget>
+   <zorder>stopServerBtn</zorder>
+   <zorder>settingsGroup</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>550</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
